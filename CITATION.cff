@@ -1,33 +1,41 @@
 cff-version: 1.2.0
 message: "If you use this lesson, please cite it as below."
 authors:
-- given-names: Bruna
-  family-names: Piereck Moura
+- given-names: Sebastian
+  family-names: Munck
   affiliation: VIB
   orcid: 0000-0001-6691-4233
-- given-names: Alexander
-  family-names: Botzki
+- given-names: Benjamin
+  family-names: Pavie
   affiliation: VIB
   orcid: 0000-0001-6691-4233
+- given-names: Ann
+  family-names: Wheeler
+  affiliation: University of Edinburgh
+  orcid: 0009-0007-2979-0308
+- given-names: Laura
+  family-names: Murphy
+  affiliation: University 0f Edinburgh
+  orcid: 0000-0003-0029-0434
 contact:
 - given-names: Alexander
   family-names: Botzki
   affiliation: VIB
   orcid: 0000-0001-6691-4233
-title: "Versioning code and documentation with Git & GitHub"
+title: "Bioimaging data analysis: from zero to machine learning hero"
 version: v2026.10
 doi: ~
 date-released: 2026-10-29
 keywords:
-- 
-- 
+- Bioimage data analysis
+- Machine Learning
 - Bioimaging
 - training material
 license: CC-BY
-repository-code: https://github.com/vib-tcp/introduction-github/
+repository-code: https://github.com/vib-training-conferences/bioimaging-data-analysis-zero-machine-learning-hero
 type: lesson
-abstract: "This course is designed for researchers and support staff who are new to version control and want to adopt best practices for managing code and collaborating on scientific projects. As research becomes increasingly computational, using free tools like Git and GitHub is essential for tracking changes, ensuring reproducibility, and working efficiently in teams. In this hands-on session, you will learn how to set up Git, manage your project history, and collaborate using GitHub. By the end of the course, you will be able to confidently use Git from the command line, create and manage repositories, and contribute to shared projects through branching and pull requests."
+abstract: "Bioimaging Data Analysis: From Zero to Machine Learning Hero is a three‑day, project‑style course that guides participants through the full journey of understanding, exploring, and analyzing bioimaging data. Beginning with common pitfalls in image acquisition and an accessible introduction to machine learning, participants progressively build practical skills using powerful open‑source tools. Hands‑on sessions with Napari, QuPath, ilastik, and Cellpose provide an interactive foundation for image visualization, segmentation, and quantitative analysis, while lunch‑and‑learn moments introduce broader concepts such as emerging machine‑learning approaches and the Bioimaging Model Zoo. In the final stretch, participants dive into state‑of‑the‑art deep‑learning tools, including SAM, Empanada, and Napari‑based neural network workflows, before shifting perspective toward responsible and reproducible science. Day three focuses on image ethics, FAIR data principles, and personalized project work in a “Bring Your Own Data” session—allowing each participant to apply new skills directly to their own research questions and leave the course with practical, actionable experience."
 identifiers:
 - type: url
-  value: https://github.com/vib-tcp/introduction-github/
+  value: https://github.com/vib-training-conferences/bioimaging-data-analysis-zero-machine-learning-hero
   version: v2026.10
