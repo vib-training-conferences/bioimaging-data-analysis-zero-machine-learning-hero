@@ -1,0 +1,70 @@
+# race-2026  -  RACE Warsaw bioimaging workshop, October 2026
+#
+#   conda env create -f environment.yml
+#   conda activate race-2026
+#   python check_install.py
+#
+# If the check reports problems it will print a single pip line to fix them.
+# Run that, then run the check again. See note 2.
+#
+# 1. cellpose<4 because cellpose-napari 0.2.0 calls models.Cellpose, which
+#    Cellpose 4 removed. Inside napari, version 3 is what you get.
+#
+# 2. The pip stage below can stop partway WITHOUT reporting an error - you get
+#    the packages named here but not everything they depend on. It looks fine
+#    until you click the Cellpose plugin and get "No module named 'cv2'".
+#    check_install.py tests for this and prints the one-line repair.
+#
+# 3. pytorch from conda, not pip - pip's torch brings its own OpenMP runtime
+#    and crashes when bioio and cellpose are imported in the same process.
+#
+# 4. ndevio is the napari READER. bioio lets Python open a .czi; ndevio is
+#    what lets you drag one onto the window. Without it every other check
+#    passes and napari says "no plugin found capable of reading".
+#
+# 6. napari is pinned to the version these materials were built and
+#    screenshotted against. napari warns that PyQt5 support goes away "in
+#    fall of 2026"; their next release, 0.10.0, is milestoned for 25 October,
+#    four days after this workshop. Whether it drops PyQt5 is still an open
+#    question on their tracker, but there is no reason to find out during a
+#    session.
+#
+# 5. PYTHONNOUSERSITE stops packages in your Windows user folder shadowing the
+#    ones in here. Without it you can be running a different napari entirely.
+
+name: race-2026
+
+channels:
+  - conda-forge
+  - nodefaults           
+
+dependencies:
+  - python=3.11
+
+  - napari=0.9.2
+  - pyqt                 
+
+  - numpy
+  - scikit-image
+  - pandas
+  - matplotlib-base
+  - pytorch-cpu
+
+  - pip
+  - pip:
+      - bioio
+      - bioio-ome-tiff
+      - bioio-tifffile
+      - bioio-czi          
+      - bioio-nd2
+      - ndevio               # the napari READER. bioio alone lets Python open a
+                             # .czi; this is what lets you drag one onto napari.
+                             # Without it napari says "no plugin found capable
+                             # of reading" and every other check still passes.
+      - cellpose<4
+      - cellpose-napari
+      - napari-segment-blobs-and-things-with-membranes
+      - napari-skimage-regionprops
+
+variables:
+  PYTHONNOUSERSITE: "1"
