@@ -1,13 +1,15 @@
 {
-  "title": "Versioning code and documentation with Git & GitHub",
+  "title": "Bioimaging data analysis: from zero to machine learning hero",
   "version": "v2026.10",
   "license": "CC-BY",
   "upload_type": "lesson",
-  "description": "<p>This course is designed for researchers and support staff who are new to version control and want to adopt best practices for managing code and collaborating on scientific projects. As research becomes increasingly computational, using free tools like Git and GitHub is essential for tracking changes, ensuring reproducibility, and working efficiently in teams. In this hands-on session, you will learn how to set up Git, manage your project history, and collaborate using GitHub. By the end of the course, you will be able to confidently use Git from the command line, create and manage repositories, and contribute to shared projects through branching and pull requests.<\/p>",
+  "description": "<p>Bioimaging Data Analysis: From Zero to Machine Learning Hero is a three‑day, project‑style course that guides participants through the full journey of understanding, exploring, and analyzing bioimaging data. Beginning with common pitfalls in image acquisition and an accessible introduction to machine learning, participants progressively build practical skills using powerful open‑source tools. Hands‑on sessions with Napari, QuPath, ilastik, and Cellpose provide an interactive foundation for image visualization, segmentation, and quantitative analysis, while lunch‑and‑learn moments introduce broader concepts such as emerging machine‑learning approaches and the Bioimaging Model Zoo. In the final stretch, participants dive into state‑of‑the‑art deep‑learning tools, including SAM, Empanada, and Napari‑based neural network workflows, before shifting perspective toward responsible and reproducible science. Day three focuses on image ethics, FAIR data principles, and personalized project work in a “Bring Your Own Data” session—allowing each participant to apply new skills directly to their own research questions and leave the course with practical, actionable experience. This is an event organized as 'RACE event', work package 3 of the RACE project funded by the European Union under Horizon Europe (Project no 101059801).<\/p>",
   "keywords": [
-    "GitHub",
-    "Git",
-    "Code versioning"
+    "Bioimaging",
+    "Machine Learning",
+    "Python",
+    "Napari",
+    "QuPath"
   ],
   "access_right": "open",
   "language": "eng",
@@ -19,15 +21,33 @@
   ],
   "creators": [
     {
-      "name": "Piereck Moura, Bruna",
+      "name": "Munck, Sebastian",
       "affiliation": "VIB",
-      "orcid": "0000-0001-5958-0669",
+      "orcid": "https://orcid.org/0000-0002-5182-5358",
       "type": "contactperson"
     },
     {
-      "name": "Botzki, Alexander",
+      "name": "Pavie, Benjamin",
       "affiliation": "VIB",
-      "orcid": "0000-0001-6691-4233",
+      "orcid": "https://orcid.org/0000-0002-0249-3844",
+      "type": "contactperson"
+    },
+    {
+      "name": "Wegierski, Tomasz",
+      "affiliation": "IIMCB",
+      "orcid": "https://orcid.org/0000-0003-2635-8580",
+      "type": "contactperson"
+    },
+    {
+      "name": "Murphy, Laura",
+      "affiliation": "University of Edinburgh",
+      "orcid": "https://orcid.org/0000-0003-0029-0434",
+      "type": "contactperson"
+    },
+     {
+      "name": "Wheeler, Ann",
+      "affiliation": "University of Edinburgh",
+      "orcid": "https://orcid.org/0009-0007-2979-0308",
       "type": "contactperson"
     }
   ],
