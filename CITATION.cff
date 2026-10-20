@@ -17,6 +17,10 @@ authors:
   family-names: Murphy
   affiliation: University 0f Edinburgh
   orcid: 0000-0003-0029-0434
+- given-names: Tomasz
+  family-names: Wegierski
+  affiliation: IIMCB
+  orcid: https://orcid.org/0000-0003-2635-8580
 contact:
 - given-names: Alexander
   family-names: Botzki
@@ -30,6 +34,10 @@ keywords:
 - Bioimage data analysis
 - Machine Learning
 - Bioimaging
+- Napari
+- QuPath
+- Python
+- BAND desktop
 - training material
 license: CC-BY
 repository-code: https://github.com/vib-training-conferences/bioimaging-data-analysis-zero-machine-learning-hero
