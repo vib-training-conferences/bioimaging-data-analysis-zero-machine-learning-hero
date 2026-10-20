@@ -25,7 +25,7 @@ link:     https://fonts.googleapis.com/css2?family=Open+Sans&display=swap
 link:  https://raw.githubusercontent.com/vib-tcp/material-liascript/master/vib-styles.css
 
 @edition:  1st 
-@CourseTitle: replace by course title
+@CourseTitle: Bioimaging data analysis: from zero to machine learning hero
 
 import:   https://raw.githubusercontent.com/vib-tcp/training_material_template/refs/heads/main/macro.md
 
@@ -37,7 +37,7 @@ import:   https://raw.githubusercontent.com/vib-tcp/training_material_template/r
 
 Hello and welcome to our workshop! We are very happy to have you here.
 
-This is the @edition edition of this workshop, jointly organised by VIB and ELIXIR.
+This is the @edition edition of this workshop, jointly organised by the RACE project.
 
 > We are using the interactive Open Educational Resource online/offline course infrastructure called LiaScript.
 > It is a distributed way of creating and sharing educational content hosted on github.
@@ -46,19 +46,44 @@ This is the @edition edition of this workshop, jointly organised by VIB and ELIX
 
 ## General context
 
-This workshop is dedicated to ...
+Bioimaging Data Analysis: From Zero to Machine Learning Hero is a three‑day, project‑style course that guides participants through the full journey of understanding, exploring, and analyzing bioimaging data. Beginning with common pitfalls in image acquisition and an accessible introduction to machine learning, participants progressively build practical skills using powerful open‑source tools. Hands‑on sessions with Napari, QuPath, ilastik, and Cellpose provide an interactive foundation for image visualization, segmentation, and quantitative analysis, while lunch‑and‑learn moments introduce broader concepts such as emerging machine‑learning approaches and the Bioimaging Model Zoo.
+
+In the final stretch, participants dive into state‑of‑the‑art deep‑learning tools, including SAM, Empanada, and Napari‑based neural network workflows, before shifting perspective toward responsible and reproducible science. Day three focuses on image ethics, FAIR data principles, and personalized project work in a “Bring Your Own Data” session—allowing each participant to apply new skills directly to their own research questions and leave the course with practical, actionable experience.
+
+This is an event organized as 'RACE event', work package 3 of the RACE project funded by the European Union under Horizon Europe (Project no 101059801). 
+
+Read more about RACE at https://www.iimcb.gov.pl/en/race/
 
 ## Proposed Schedule
 
 Schedule day 1:
 
-- 9:30 - 11:00 - session
-- 11:00 - 11:15 - break
-- 11:15 - 12:45 - session
+- 9:00 - 09:20 - Welcome and short introduction of instructors and participants
+- 9:30 - 10:30 - Pitfall of the acquisition
+- 10:30 - 11:00 - tea and coffee break
+- 11:00 - 12:30 - What has machine learning ever done for us
 - 12:45 - 13:45 - lunch
-- 13:45 - 15:15 - session
-- 15:15 - 15:30 - break
-- 15:30 - 17:00 - session
+- 13:45 - 15:15 - Napari Introduction
+- 15:15 - 15:30 - tea and coffee break
+- 15:30 - 17:00 - Napari Part II
+
+Schedule day 2:
+
+- 9:00 - 10:30 - Napari Part III
+- 11:00 - 11:15 - tea and coffee break
+- 11:15 - 12:30 - QuPath - pixel classifier/ object classifiers (a fast intro)
+- 12:45 - 13:30 - lunch
+- 13:30 - 15:05 - Ilastik - towards machine learning 
+- 15:15 - 15:30 - tea and coffee break
+- 15:30 - 17:00 - FAIR Imaging resources and image ethics (publications)
+
+Schedule day 3:
+
+- 9:30 - 10:30 - Deep learning with Napari : Noise2Void/Micro-SAM/NNInteractive/Empanada
+- 10:30 - 11:05 - tea and coffee break
+- 11:15 - 12:45 - Bring your own data (present your challenges
+- 12:30 - 13:30 - lunch
+- 13:45 - 16:15 - Bring your own data (working on the examples with experts)
 
 </section>
 
@@ -66,39 +91,34 @@ Schedule day 1:
 
 > <i class="fa fa-lock"></i> **License:** [Creative Commons Attribution 4.0 International  License](https://creativecommons.org/licenses/by/4.0/deed.en)
 >
-> <i class="fa fa-user"></i> **Target Audience:** Researchers, trainers, training providers
+> <i class="fa fa-user"></i> **Target Audience:** Researchers
 >
 > <svg xmlns="http://www.w3.org/2000/svg" height="14" width="16" viewBox="0 0 576 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.--><path d="M384 64c0-17.7 14.3-32 32-32H544c17.7 0 32 14.3 32 32s-14.3 32-32 32H448v96c0 17.7-14.3 32-32 32H320v96c0 17.7-14.3 32-32 32H192v96c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32h96V320c0-17.7 14.3-32 32-32h96V192c0-17.7 14.3-32 32-32h96V64z"/></svg> **Level:** Beginner  
 >
 > <i class="fa fa-arrow-left"></i> **Prerequisites**  
 > To be able to follow this course, learners should have knowledge in:
 > 
-> 1. Basic knowlegde of HTML  
-> 2. Basic knowledge of ...
-> 3. Being comfortable working with ....  
+> 1. Fundamental understanding of microscopy data. 
+> 2. Students should know the essentials of how biological images are acquired (e.g., channels, resolution, noise, file formats) to make sense of topics such as acquisition pitfalls, segmentation workflows, and model performance.
 >
-> <i class="fa fa-bookmark"></i> **Description**  This course consist of .....
+> <i class="fa fa-bookmark"></i> **Description**  Bioimaging Data Analysis: From Zero to Machine Learning Hero is a three‑day, project‑style course that guides participants through the full journey of understanding, exploring, and analyzing bioimaging data. Beginning with common pitfalls in image acquisition and an accessible introduction to machine learning, participants progressively build practical skills using powerful open‑source tools. Hands‑on sessions with Napari, QuPath, ilastik, and Cellpose provide an interactive foundation for image visualization, segmentation, and quantitative analysis, while lunch‑and‑learn moments introduce broader concepts such as emerging machine‑learning approaches and the Bioimaging Model Zoo. In the final stretch, participants dive into state‑of‑the‑art deep‑learning tools, including SAM, Empanada, and Napari‑based neural network workflows, before shifting perspective toward responsible and reproducible science. Day three focuses on image ethics, FAIR data principles, and personalized project work in a “Bring Your Own Data” session—allowing each participant to apply new skills directly to their own research questions and leave the course with practical, actionable experience.
 > 
 > <i class="fa fa-arrow-right"></i> **Learning Outcomes:**  
 > By the end of the course, learners will be able to:
 >
-> 1. Define what ..... [Remembering] 
->
-> 2. Discuss and explain ..... [Understanding] 
->
-> 3. Apply and modify ..... [Applying] 
->
-> 4. Compare ..... [Analysing] 
->
-> 5. Evaluate and select ..... [Evaluating] 
->
-> 6. Create and integrate ..... [Creating]
+> 1. Explain common pitfalls in bioimage acquisition and evaluate how they affect downstream analysis quality. 
+> 2. Operate core functionalities of Napari, QuPath, ilastik, and Cellpose to visualize, segment, and quantify biological images in a reproducible manner.
+> 3. Compare classical image‑analysis approaches with machine‑learning–based workflows, selecting appropriate methods for different bioimaging tasks.
+> 4. Apply pixel‑ and object‑classification workflows in QuPath and interpret the resulting segmentation outputs for biological relevance.
+> 5. Execute deep‑learning‑based segmentation tools such as SAM and Empanada, and assess their performance using appropriate evaluation criteria.
+> 6. Discuss best practices in image ethics and apply FAIR data principles when preparing imaging data for sharing, publication, or reuse.
+> 7. Design and implement a basic analysis pipeline for their own dataset (“Bring Your Own Data”), demonstrating problem‑solving, tool selection, and critical interpretation of results.
 >
 >> Check more about [Bloom's taxonomy](https://cft.vanderbilt.edu/guides-sub-pages/blooms-taxonomy/) to categorize the levels in educational goals
 >
-> <i class="fa fa-hourglass"></i> **Time estimation**: 120 minutes
+> <i class="fa fa-hourglass"></i> **Time estimation**: 30 hours
 >
-> <i class="fa fa-asterisk"></i> **Requirements:** The (technical) installation requirements are described in the [installations](https://vibbits-nextflow-workshop.readthedocs.io/en/latest/installations.html) section.
+> <i class="fa fa-asterisk"></i> **Requirements:** The (technical) installation requirements are described in the [installations]() section.
 >
 > <i class="fa fa-envelope-open-text"></i> **Supporting Materials**:
 > 
@@ -107,10 +127,12 @@ Schedule day 1:
 > 
 > <i class="fa fa-life-ring"></i> **Acknowledgement**:
 >
-> * [ELIXIR Belgium](https://www.elixir-belgium.org/)
-> * [VIB Technologies](https://www.vib.be/)
+> * [RACE](https://www.iimcb.gov.pl/en/race/)
+> * [VIB](https://www.vib.be/)
+> * [IIMCB](https://www.iimcb.gov.pl/en)
+> * [IGC Edinburgh](https://www.research.ed.ac.uk/en/organisations/institute-of-genetics-and-cancer-2/)
 >
-> <i class="fa fa-money-bill"></i> **Funding:** This project has received funding from the ELIXIR Programme 2022-2023.
+> <i class="fa fa-money-bill"></i> **Funding:** This project has received funding from the RACE project (RACE project funded by the European Union under Horizon Europe Project no 101059801).
 >
 > <i class="fa fa-anchor"></i> **PURL**:  
 
@@ -119,55 +141,19 @@ Schedule day 1:
 
 Authors
 
-- @[orcid(Paulo Czarnewski)](http://orcid.org/0000-0001-8150-4021)
-- @[orcid(Name)](http://orcid.org/0000-0000-0000-0000)
-- @[orcid(Name)](http://orcid.org/0000-0000-0000-0000)
-
-Contributors
-
-- @[orcid(Name)](http://orcid.org/0000-0000-0000-0000)
-- @[orcid(Name)](http://orcid.org/0000-0000-0000-0000)
-
+- @[orcid(Sebastian Munck)](https://orcid.org/0000-0002-5182-5358)
+- @[orcid(Laura Murphy)](https://orcid.org/0000-0003-0029-0434)
+- @[orcid(Benjamin Pavie)](https://orcid.org/0000-0002-0249-3844)
+- @[orcid(Tomasz Wegierski)](https://orcid.org/0000-0003-2635-8580)
+- @[orcid(Ann Wheeler)](https://orcid.org/0009-0007-2979-0308)
 
 ## Citing this lesson
 
 Please cite as:
 
-  1. ...
-
-# Chapters List
-
-| Chapter | Title                                                   |
-| :---- | :------------------------------------------------         |
-| 0     | [Get ready for the course, instalation and pre-reading](link) |
-| 1     | [Chapter title](link)                                             |
-| 2     | [Chapter title](link)                                             |
-| 3     | [Chapter title](link)                                             |
-
-
-# References
-
-Here are some great tips for learning and to get inspired for writing your own pipelines:
-
-- Nextflow's official documentation ([link](https://www.nextflow.io/docs/latest/index.html))
-- Reach out to the community on Slack ([link](https://www.nextflow.io/slack-invite.html))
-- Curated collection of patterns ([link](https://github.com/nextflow-io/patterns))
-- Workshop focused on DSL2 developed by CRG Bioinformatics Core ([link](https://github.com/biocorecrg/ELIXIR_containers_nextflow))
-- Tutorial exercises (DSL1) developed by Seqera ([link](https://github.com/seqeralabs/nextflow-tutorial))
-- Curated ready-to-use analysis pipelines by NF-core ([link](https://nf-co.re/))
-- Model example pipeline on Variant Calling Analysis with NGS RNA-Seq data developed by CRG ([link](https://github.com/CRG-CNAG/CalliNGS-NF))
-- Tutorial by Andrew Severin ([link](https://bioinformaticsworkbook.org/dataAnalysis/nextflow/02_creatingAworkflow.html#gsc.tab=0))
-- Nextflow community basic training ([link](https://training.nextflow.io/basic_training/))
-
+  1. training material of Bioimaging data analysis: from zero to machine learning hero, https://zenodo.org/XXXX
+                                         |
 # About us
-
-*About ELIXIR Training Platform*
-
-The ELIXIR Training Platform was established to develop a training community that spans all ELIXIR member states (see the list of Training Coordinators). It aims to strengthen national training programmes, grow bioinformatics training capacity and competence across Europe, and empower researchers to use ELIXIR's services and tools.
-
-One service offered by the Training Platform is TeSS, the training registry for the ELIXIR community. Together with ELIXIR France and ELIXIR Slovenia, VIB as lead node for ELIXIR Belgium is engaged in consolidating quality and impact of the TeSS training resources (2022-23) (https://elixir-europe.org/internal-projects/commissioned-services/2022-trp3).
-
-The Training eSupport System was developed to help trainees, trainers and their institutions to have a one-stop shop where they can share and find information about training and events, including training material. This way we can create a catalogue that can be shared within the community. How it works is what we are going to find out in this course.
 
 *About VIB and VIB Technologies*
 
