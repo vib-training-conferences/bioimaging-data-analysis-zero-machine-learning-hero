@@ -133,7 +133,7 @@ Schedule day 3:
 >
 > <i class="fa fa-money-bill"></i> **Funding:** This project has received funding from the RACE project (RACE project funded by the European Union under Horizon Europe Project no 101059801).
 >
-> <i class="fa fa-anchor"></i> **PURL**:  
+> <i class="fa fa-anchor"></i> **PURL**: https://doi.org/10.5281/zenodo.23526723
 
 
 # Authors and Contributors
@@ -150,8 +150,8 @@ Authors
 
 Please cite as:
 
-  1. training material of Bioimaging data analysis: from zero to machine learning hero, https://zenodo.org/XXXX
-                                         |
+  1. training material of Bioimaging data analysis: from zero to machine learning hero, [https://zenodo.org/XXXX](https://doi.org/10.5281/zenodo.23526723)
+  
 # About us
 
 *About VIB and VIB Technologies*
