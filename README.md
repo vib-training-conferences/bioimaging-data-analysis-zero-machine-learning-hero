@@ -118,7 +118,7 @@ Schedule day 3:
 >
 > <i class="fa fa-hourglass"></i> **Time estimation**: 30 hours
 >
-> <i class="fa fa-asterisk"></i> **Requirements:** The (technical) installation requirements are described in the [installations]() section.
+> <i class="fa fa-asterisk"></i> **Requirements:** The (technical) installation requirements are described in the [installations](https://github.com/vib-training-conferences/bioimaging-data-analysis-zero-machine-learning-hero/tree/main/supplementary) section.
 >
 > <i class="fa fa-envelope-open-text"></i> **Supporting Materials**:
 > 
