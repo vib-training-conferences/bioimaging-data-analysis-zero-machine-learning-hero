@@ -122,8 +122,7 @@ Schedule day 3:
 >
 > <i class="fa fa-envelope-open-text"></i> **Supporting Materials**:
 > 
-> 1. [Exercises and solutions](link)
-> 2. [Slides](https://liascript.github.io/course/?https://raw.githubusercontent.com/vib-tcp/training_material_template/refs/heads/main/supplementary/chapter_01_presentation.md)  
+> 1. [Slides and Datasets](https://objectstor.vib.be/minio/ui/browser/tcp-datasets-public-2025-0003/20261019-RACE-Bioimaging%2F)
 > 
 > <i class="fa fa-life-ring"></i> **Acknowledgement**:
 >
@@ -161,7 +160,7 @@ VIB is an entrepreneurial non-profit research institute, with a clear focus on g
 
 As part of the VIB Technologies, the 12 VIB Core Facilities, provide support in a wide array of research fields and housing specialized scientific equipment for each discipline. Science and technology go hand in hand. New technologies advance science and often accelerate breakthroughs in scientific research. VIB has a visionary approach to science and technology, founded on its ability to identify and foster new innovations in life sciences.
 
-The goal of VIB Technology Training is to up-skill life scientists to excel in the domains of VIB Technologies, Bioinformatics & AI, Software Development, and Research Data Management.
+The goal of VIB Training & Conferences is to up-skill life scientists to excel in the domains of VIB Technologies, Bioinformatics & AI, Software Development, and Research Data Management.
 
 --------------------------------------------
 
@@ -182,18 +181,22 @@ License: [![CC BY SA](img/picture003.jpg)](https://creativecommons.org/licenses/
     "@type": "CreativeWork",
     "@id": "https://bioschemas.org/profiles/TrainingMaterial/1.0-RELEASE"
   },
-  "description": "TeSS, how can I help you? This is our interactive hands-on course about efficient use of the ELIXIR TeSS platform.",
-  "keywords": "FAIR, OPEN, Bioinformatics, Teaching, TeSS",
-  "name": "TeSS, how can I help you?",
+  "description": "Bioimaging Data Analysis: From Zero to Machine Learning Hero is a three‑day, project‑style course that guides participants through the full journey of understanding, exploring, and analyzing bioimaging data. Beginning with common pitfalls in image acquisition and an accessible introduction to machine learning, participants progressively build practical skills using powerful open‑source tools. Hands‑on sessions with Napari, QuPath, ilastik, and Cellpose provide an interactive foundation for image visualization, segmentation, and quantitative analysis, while lunch‑and‑learn moments introduce broader concepts such as emerging machine‑learning approaches and the Bioimaging Model Zoo. In the final stretch, participants dive into state‑of‑the‑art deep‑learning tools, including SAM, Empanada, and Napari‑based neural network workflows, before shifting perspective toward responsible and reproducible science. Day three focuses on image ethics, FAIR data principles, and personalized project work in a “Bring Your Own Data” session—allowing each participant to apply new skills directly to their own research questions and leave the course with practical, actionable experience.",
+  "keywords": "Bioimaging, Data Analysis, Napari, QuPath, Illastik",
+  "name": "Bioimaging Data Analysis with Machine Learning",
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "educationalLevel": "beginner",
   "competencyRequired": "none",
   "teaches": [
-    "search events and material in TeSS via direct and faceted search",
-    "add manually and automatically events and material to TeSS",
-    "extract events and material from TeSS by using TeSS widgets"
+    "Explain common pitfalls in bioimage acquisition and evaluate how they affect downstream analysis quality.", 
+    "Operate core functionalities of Napari, QuPath, ilastik, and Cellpose to visualize, segment, and quantify biological images in a reproducible manner.",
+    "Compare classical image‑analysis approaches with machine‑learning–based workflows, selecting appropriate methods for different bioimaging tasks.",
+    "Apply pixel‑ and object‑classification workflows in QuPath and interpret the resulting segmentation outputs for biological relevance.",
+    "Execute deep‑learning‑based segmentation tools such as SAM and Empanada, and assess their performance using appropriate evaluation criteria.",
+    "Discuss best practices in image ethics and apply FAIR data principles when preparing imaging data for sharing, publication, or reuse.",
+    "Design and implement a basic analysis pipeline for their own dataset (“Bring Your Own Data”), demonstrating problem‑solving, tool selection, and critical interpretation of results"
   ],
-  "audience": "training providers",
+  "audience": "researchers",
   "inLanguage": "en-US",
   "learningResourceType": [
     "tutorial"
@@ -201,29 +204,29 @@ License: [![CC BY SA](img/picture003.jpg)](https://creativecommons.org/licenses/
   "author": [
     {
       "@type": "Person",
-      "name": "Bruna Piereck"
+      "name": "Sebastian Munch"
     },
     {
       "@type": "Person",
-      "name": "Olivier Sand"
+      "name": "Ann Wheeler"
     },
     {
       "@type": "Person",
-      "name": "Alexander Botzki"
+      "name": "Laura Murphy"
+    },
+    {
+      "@type": "Person",
+      "name": "Benjamin Pavie"
     }
   ],
   "contributor": [
     {
       "@type": "Person",
-      "name": "Yasmine Maes"
+      "name": "Tomasz Wegierski"
     },
     {
       "@type": "Person",
-      "name": "Finn Bacall"
-    },
-    {
-      "@type": "Person",
-      "name": "Munazah Andrabi"
+      "name": "Alexander Botzki"
     }
   ]
 }
